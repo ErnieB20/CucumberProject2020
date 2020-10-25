@@ -45,6 +45,7 @@ public class CreateCalendarEventPage extends BasePage {
         String xpath = "//label[text()='" + parameterName + "']/../div/div";
         WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpath)));
         return element.getText().trim();
+        //destined to learn Java
     }
 
 }
